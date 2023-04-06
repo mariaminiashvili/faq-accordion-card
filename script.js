@@ -9,10 +9,12 @@ function openBox(place){
     if(boxArray[place] == 1){
         answer[place].classList.add("answer-text"); 
         arrow[place].classList.add("arrow");
+        arrow[place].classList.remove("arrow-trf");
         question[place].classList.remove("question");
         boxArray[place] = 0;
     }else{
         answer[place].classList.remove("answer-text");
+        arrow[place].classList.add("arrow-trf");
         arrow[place].classList.remove("arrow");
         question[place].classList.add("bold");
 

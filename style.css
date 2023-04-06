@@ -87,8 +87,12 @@ body{
   color:#4B4C5F ;
  }
 
-.arrow{
+ .arrow-trf{
   transform: rotate(180deg);
+}
+
+.arrow{ 
+  color: #ca3d11;
 }
 
 .answer{
